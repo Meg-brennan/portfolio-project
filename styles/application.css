@@ -78,6 +78,10 @@ p {
   width: auto;
 }
 
+.homepage-thumbnails-tall {
+  padding-right: 150px;
+}
+
 .content .row {
   margin-bottom: 40px;
   margin-top: 100px;
