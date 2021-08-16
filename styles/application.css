@@ -43,6 +43,7 @@ h3 {
 p {
   color: #ffffff;
   font-size: 17px;
+  line-height: 1.7;
 }
 
 .btn-branding {
@@ -68,7 +69,8 @@ p {
 }
 
 .content {
-  margin: 100px 140px;
+  margin: 100px auto;
+  width: 90%;
 }
 
 .homepage-thumbnails {
