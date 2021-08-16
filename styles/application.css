@@ -86,13 +86,22 @@ p {
   font-size: 40px;
 }
 
+.content .row {
+  margin-bottom: 80px;
+}
+
 .style-description {
   padding: 0 40px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   h2 {
     font-size: 48px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
   }
 
   .hero {
