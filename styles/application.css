@@ -2,7 +2,8 @@
   color: #272142; */
 
 :root {
-  --primary-color: #202020;
+  --primary-color: #1b1b1b;
+  --secondary-color: #202020;
   --default-font-family: "Roboto", sans-serif;
   --secondary-font-family: "Montserrat", sans-serif;
 }
@@ -39,6 +40,11 @@ h3 {
   font-weight: 400;
 }
 
+p {
+  color: #ffffff;
+  font-size: 17px;
+}
+
 .btn-branding {
   text-transform: uppercase;
   background-color: #fff;
@@ -59,6 +65,23 @@ h3 {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.content {
+  margin: 100px 140px;
+}
+
+.homepage-thumbnails {
+  height: 280px;
+  width: auto;
+}
+
+.content .row {
+  margin-bottom: 40px;
+}
+
+.content h2 {
+  font-size: 40px;
 }
 
 @media (max-width: 600px) {
