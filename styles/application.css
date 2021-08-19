@@ -133,3 +133,9 @@ p {
     font-size: 30px;
   }
 }
+
+.about-heading h1 {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #f65282;
+}
