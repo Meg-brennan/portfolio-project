@@ -4,6 +4,7 @@
 :root {
   --primary-color: #1b1b1b;
   --secondary-color: #202020;
+  --tertiary-color: #2d2727;
   --default-font-family: "Roboto", sans-serif;
   --secondary-font-family: "Montserrat", sans-serif;
 }
@@ -50,11 +51,18 @@ p {
   text-transform: uppercase;
   background-color: #fff;
   text-decoration: none;
-  padding: 18px 30px;
+  padding: 18px 40px;
   color: #272142;
   border-radius: 50px;
   font-family: var(--secondary-font-family);
   font-size: 14px;
+  width: 200px;
+  letter-spacing: 0.1rem;
+}
+
+.btn-branding:hover {
+  color: #fff;
+  background: var(--secondary-color);
 }
 
 .hero {
@@ -134,8 +142,38 @@ p {
   }
 }
 
-.about-heading h1 {
+.about-header {
+  margin-top: 50px;
+  padding-left: 40px;
+  color: #ffffff;
+}
+
+h1.about-heading {
   font-size: 18px;
-  text-transform: uppercase;
   color: #f65282;
+  margin-bottom: 32px;
+}
+
+h2.about-heading {
+  font-size: 64px;
+  line-height: 75px;
+  margin-bottom: 34px;
+}
+
+.about-header p {
+  margin-bottom: 50px;
+}
+
+.about-header .social-link-icon {
+  padding-right: 25px;
+  font-size: 18px;
+}
+
+.about-header .social-links {
+  margin-bottom: 65px;
+}
+
+div.about-details {
+  margin: 100px auto;
+  width: 80%;
 }
