@@ -57,6 +57,71 @@ p {
   line-height: 1.7;
 }
 
+nav {
+  background: var(--secondary-color);
+}
+
+nav ul {
+  margin-right: 20px;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 0;
+}
+
+nav .navbar-brand {
+  margin: 30px 50px;
+}
+
+nav a:hover {
+  color: var(--fourth-color);
+}
+
+nav .nav-link {
+  color: #fff;
+  opacity: 0.8;
+  font-size: 16px;
+}
+
+nav .nav-link.active {
+  font-weight: bold;
+  opacity: 1;
+}
+
+nav .nav-link:hover {
+  color: var(--fourth-color);
+}
+
+footer {
+  background: #282323;
+  color: #fff;
+}
+
+footer a:hover {
+  color: var(--fourth-color);
+}
+
+footer .navbar-brand {
+  margin: 30px 50px;
+}
+
+footer .social-links {
+  font-size: 18px;
+  width: 100px;
+}
+
+footer .copyright {
+  font-size: 16px;
+  margin-right: 50px;
+}
+
+.navbar-toggler-icon {
+  color: #fff;
+  font-size: 30px;
+}
 .btn-branding {
   text-transform: uppercase;
   background-color: #fff;
@@ -179,6 +244,15 @@ h2.about-heading {
 
 .about-header .social-links {
   margin-bottom: 65px;
+}
+
+a.social-link-icons {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.about-header a:hover {
+  color: var(--fourth-color);
 }
 
 div.about-details {
