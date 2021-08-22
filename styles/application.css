@@ -255,6 +255,10 @@ a.social-link-icons {
   color: var(--fourth-color);
 }
 
+a.about-button:hover {
+  color: #fff;
+}
+
 div.about-details {
   margin: 100px auto;
   width: 80%;
@@ -300,6 +304,14 @@ h1.contact-heading {
   margin-bottom: 30px;
   padding: 10px 10px;
   font-size: 18px;
+}
+
+.contact-section a {
+  text-decoration: none;
+}
+
+.contact-section a:hover {
+  color: #ec82a2;
 }
 
 @media (max-width: 953px) {
