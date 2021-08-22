@@ -148,10 +148,11 @@ footer .copyright {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  margin-bottom: 140px;
 }
 
-.content {
-  margin: 100px auto;
+.homepage-content {
+  margin: 30px auto;
   width: 90%;
 }
 
