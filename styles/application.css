@@ -329,9 +329,25 @@ h1.contact-heading {
   opacity: 1;
 }
 
+@media (max-width: 1000px) {
+  .homepage-thumbnails {
+    height: 240px;
+    width: auto;
+    padding: 0;
+  }
+}
+
 @media (max-width: 953px) {
   .other-section-thumbnail {
     padding-right: 0;
+  }
+}
+
+@media (max-width: 875px) {
+  .homepage-thumbnails {
+    height: 220px;
+    width: auto;
+    padding: 0;
   }
 }
 
@@ -382,6 +398,12 @@ h1.contact-heading {
     margin: 0 auto;
   }
 
+  .homepage-thumbnails {
+    height: 210px;
+    width: auto;
+    padding: 0;
+  }
+
   .style-description {
     padding: 0;
     margin: 0 auto;
@@ -424,6 +446,14 @@ h1.contact-heading {
 
   .footnote p {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .homepage-thumbnails {
+    height: 300px;
+    width: auto;
+    padding: 0;
   }
 }
 
