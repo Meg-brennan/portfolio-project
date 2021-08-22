@@ -5,6 +5,7 @@
   --primary-color: #1b1b1b;
   --secondary-color: #202020;
   --tertiary-color: #2d2727;
+  --fourth-color: #f65282;
   --default-font-family: "Roboto", sans-serif;
   --secondary-font-family: "Montserrat", sans-serif;
 }
@@ -188,9 +189,43 @@ div.about-details {
 h1.work-heading {
   font-size: 72px;
   text-align: center;
-  letter-spacing: 0.5rem;
+  letter-spacing: 10%;
   margin-top: 32px;
   line-height: 84px;
+}
+
+h1.contact-heading {
+  font-size: 72px;
+  letter-spacing: 10%;
+  text-align: center;
+  margin-top: 32px;
+  line-height: 84px;
+}
+
+.contact-section {
+  margin-top: 140px;
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.contact-section h3 {
+  color: var(--fourth-color);
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  margin: 0;
+}
+
+.contact-icon {
+  padding-right: 10px;
+}
+
+.contact-section p {
+  line-height: 30px;
+  margin-bottom: 30px;
+  padding: 10px 10px;
+  font-size: 18px;
 }
 
 @media (max-width: 953px) {
