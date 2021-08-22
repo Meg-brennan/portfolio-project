@@ -41,6 +41,15 @@ h3 {
   font-weight: 400;
 }
 
+.work-section h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
 p {
   color: #ffffff;
   font-size: 17px;
@@ -84,6 +93,25 @@ p {
 .homepage-thumbnails {
   height: 280px;
   width: auto;
+  transition: all 150ms ease-in-out;
+}
+
+.overlay {
+  position: relative;
+  bottom: 200px;
+  opacity: 0;
+  transition: 150ms ease-in-out;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+a:hover .homepage-thumbnails {
+  filter: blur(7px);
+}
+
+a:hover .overlay {
+  opacity: 1;
 }
 
 .workpage-thumbnails {
