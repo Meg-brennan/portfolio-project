@@ -114,6 +114,10 @@ a:hover .overlay {
   opacity: 1;
 }
 
+.work-section div.row {
+  margin-bottom: 100px;
+}
+
 .workpage-thumbnails {
   height: 280px;
   width: auto;
@@ -121,6 +125,15 @@ a:hover .overlay {
 
 .workpage-thumbnails-tall {
   padding-right: 150px;
+}
+
+.other-section-thumbnail {
+  height: 400px;
+  width: auto;
+}
+
+.workpage-thumbnails-tall-right {
+  padding-left: 150px;
 }
 
 .content .row {
@@ -178,6 +191,12 @@ h1.work-heading {
   letter-spacing: 0.5rem;
   margin-top: 32px;
   line-height: 84px;
+}
+
+@media (max-width: 953px) {
+  .other-section-thumbnail {
+    padding-right: 0;
+  }
 }
 
 @media (max-width: 800px) {
