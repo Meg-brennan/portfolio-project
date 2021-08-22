@@ -86,7 +86,12 @@ p {
   width: auto;
 }
 
-.homepage-thumbnails-tall {
+.workpage-thumbnails {
+  height: 280px;
+  width: auto;
+}
+
+.workpage-thumbnails-tall {
   padding-right: 150px;
 }
 
@@ -137,6 +142,14 @@ h2.about-heading {
 div.about-details {
   margin: 100px auto;
   width: 80%;
+}
+
+h1.work-heading {
+  font-size: 72px;
+  text-align: center;
+  letter-spacing: 0.5rem;
+  margin-top: 32px;
+  line-height: 84px;
 }
 
 @media (max-width: 800px) {
