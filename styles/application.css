@@ -390,10 +390,6 @@ h1.contact-heading {
     text-align: center;
   }
 
-  h1.work-heading {
-    font-size: 60px;
-  }
-
   nav .navbar-brand {
     padding-left: 15px;
     margin-left: 0;
@@ -417,12 +413,12 @@ h1.contact-heading {
   }
 
   .hero {
-    background-size: 500px;
+    background-size: cover;
     background-position: 25% 0%;
-    padding: 50px 0;
+    padding: 90px 0;
     width: fit-content;
     justify-content: center;
-    padding-bottom: 50px;
+    margin-bottom: 60px;
   }
 
   .homepage-thumbnails {
@@ -445,6 +441,10 @@ h1.contact-heading {
     width: 100%;
     font-size: 18px;
     padding: 15px;
+  }
+
+  h1.work-heading {
+    font-size: 60px;
   }
 
   .work-content {
