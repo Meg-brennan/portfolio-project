@@ -157,6 +157,7 @@ footer .copyright {
 .homepage-thumbnails {
   height: 280px;
   width: auto;
+  border-radius: 4px;
   transition: all 150ms ease-in-out;
 }
 
@@ -185,19 +186,21 @@ a:hover .overlay {
 .workpage-thumbnails {
   height: 280px;
   width: auto;
+  border-radius: 4px;
 }
 
 .workpage-thumbnails-tall {
-  padding-right: 150px;
+  margin-right: 150px;
 }
 
 .other-section-thumbnail {
   height: 400px;
   width: auto;
+  border-radius: 4px;
 }
 
 .workpage-thumbnails-tall-right {
-  padding-left: 150px;
+  margin-left: 150px;
 }
 
 .content .row {
@@ -348,6 +351,12 @@ h1.contact-heading {
     height: 220px;
     width: auto;
     padding: 0;
+  }
+
+  .other-section-thumbnail {
+    margin-right: 50px;
+    height: 350px;
+    width: auto;
   }
 }
 
