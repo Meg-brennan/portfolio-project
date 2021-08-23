@@ -434,6 +434,22 @@ h1.contact-heading {
     padding: 0;
   }
 
+  h2.about-heading {
+    font-size: 56px;
+  }
+
+  .about-header {
+    text-align: center;
+    padding: 20px;
+    margin-top: 0;
+  }
+
+  div.about-details {
+    width: 100%;
+    font-size: 18px;
+    padding: 15px;
+  }
+
   .work-content {
     width: fit-content;
     padding: 0 auto;
@@ -455,21 +471,6 @@ h1.contact-heading {
 
   .work-section div.row {
     margin-bottom: 80px;
-  }
-
-  div.about-details {
-    width: 100%;
-    font-size: 18px;
-    padding: 15px;
-  }
-
-  h2.about-heading {
-    font-size: 56px;
-  }
-
-  .about-header {
-    text-align: center;
-    padding: 20px;
   }
 
   h1.contact-heading {
@@ -501,6 +502,11 @@ h1.contact-heading {
   .homepage-thumbnails {
     max-width: 100%;
     height: auto;
+  }
+
+  h2.about-heading {
+    font-size: 48px;
+    line-height: 1.2;
   }
 
   .work-content {
