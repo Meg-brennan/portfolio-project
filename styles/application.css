@@ -2,6 +2,8 @@
   color: #272142; 
   color: #282323*/
 
+/* GENERAL STYLES */
+
 :root {
   --primary-color: #1b1b1b;
   --secondary-color: #202020;
@@ -43,15 +45,6 @@ h3 {
   font-weight: 400;
 }
 
-.work-section h3 {
-  text-transform: uppercase;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 20px;
-  font-size: 24px;
-}
-
 p {
   color: #ffffff;
   font-size: 17px;
@@ -61,6 +54,14 @@ p {
 nav {
   background: var(--secondary-color);
 }
+
+footer {
+  background: #282323;
+  color: #fff;
+  height: 100px;
+}
+
+/* STYLES ACROSS ALL PAGES */
 
 nav ul {
   margin-right: 20px;
@@ -96,29 +97,11 @@ nav .nav-link:hover {
   color: var(--fourth-color);
 }
 
-footer {
-  background: #282323;
-  color: #fff;
-  height: 100px;
-}
-
-footer a:hover {
-  color: var(--fourth-color);
-}
-
-footer .social-links {
-  font-size: 18px;
-  width: 100px;
-}
-
-footer .copyright {
-  font-size: 14px;
-}
-
 .navbar-toggler-icon {
   color: #fff;
   font-size: 30px;
 }
+
 .btn-branding {
   text-transform: uppercase;
   background-color: #fff;
@@ -136,6 +119,38 @@ footer .copyright {
   color: #fff;
   background: var(--secondary-color);
 }
+
+footer a:hover {
+  color: var(--fourth-color);
+}
+
+footer .social-links {
+  font-size: 18px;
+  width: 100px;
+}
+
+footer .copyright {
+  font-size: 14px;
+}
+
+.footnote {
+  text-align: center;
+  background: #282323;
+}
+
+.footnote p {
+  font-size: 16px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.footnote a {
+  color: var(--fourth-color);
+  font-weight: bold;
+  opacity: 1;
+}
+
+/* HOMEPAGE STYLES */
 
 .hero {
   background-color: var(--primary-color);
@@ -161,6 +176,10 @@ footer .copyright {
   transition: all 150ms ease-in-out;
 }
 
+a:hover .homepage-thumbnails {
+  filter: blur(7px);
+}
+
 .overlay {
   position: relative;
   bottom: 200px;
@@ -171,50 +190,11 @@ footer .copyright {
   font-size: 20px;
 }
 
-a:hover .homepage-thumbnails {
-  filter: blur(7px);
-}
-
 a:hover .overlay {
   opacity: 1;
 }
 
-.work-section div.row {
-  margin-bottom: 100px;
-}
-
-.workpage-thumbnails {
-  height: 280px;
-  width: auto;
-  border-radius: 4px;
-}
-
-.workpage-thumbnails-tall {
-  margin-right: 150px;
-}
-
-.other-section-thumbnail {
-  height: 400px;
-  width: auto;
-  border-radius: 4px;
-}
-
-.workpage-thumbnails-tall-right {
-  margin-left: 150px;
-}
-
-.content .row {
-  margin-bottom: 40px;
-  margin-top: 100px;
-}
-
-.content h2 {
-  font-size: 40px;
-}
-
-.style-description {
-  padding: 0 40px;
-}
+/* ABOUT PAGE STYLES */
 
 .about-header {
   margin-top: 50px;
@@ -265,6 +245,54 @@ div.about-details {
   width: 80%;
 }
 
+/* WORK PAGE STYLES */
+
+.work-section h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.work-content .row {
+  margin-bottom: 40px;
+  margin-top: 100px;
+}
+
+.work-content h2 {
+  font-size: 40px;
+}
+
+.work-section div.row {
+  margin-bottom: 100px;
+}
+
+.workpage-thumbnails {
+  height: 280px;
+  width: auto;
+  border-radius: 4px;
+}
+
+.workpage-thumbnails-tall {
+  margin-right: 150px;
+}
+
+.workpage-thumbnails-tall-right {
+  margin-left: 150px;
+}
+
+.other-section-thumbnail {
+  height: 400px;
+  width: auto;
+  border-radius: 4px;
+}
+
+.style-description {
+  padding: 0 40px;
+}
+
 h1.work-heading {
   font-size: 72px;
   text-align: center;
@@ -272,6 +300,8 @@ h1.work-heading {
   margin-top: 32px;
   line-height: 84px;
 }
+
+/* CONTACT PAGE STYLES */
 
 h1.contact-heading {
   font-size: 72px;
@@ -315,22 +345,9 @@ h1.contact-heading {
   color: #ec82a2;
 }
 
-.footnote {
-  text-align: center;
-  background: #282323;
-}
+/* MEDIA QUERIES */
 
-.footnote p {
-  font-size: 16px;
-  padding-bottom: 20px;
-  margin: 0;
-}
-
-.footnote a {
-  color: var(--fourth-color);
-  font-weight: bold;
-  opacity: 1;
-}
+/* 1000px */
 
 @media (max-width: 1000px) {
   .homepage-thumbnails {
@@ -340,11 +357,15 @@ h1.contact-heading {
   }
 }
 
+/* 953px */
+
 @media (max-width: 953px) {
   .other-section-thumbnail {
     padding-right: 0;
   }
 }
+
+/* 875px */
 
 @media (max-width: 875px) {
   .homepage-thumbnails {
@@ -359,6 +380,8 @@ h1.contact-heading {
     width: auto;
   }
 }
+
+/* 800px */
 
 @media (max-width: 800px) {
   h2 {
@@ -392,6 +415,10 @@ h1.contact-heading {
     font-size: 12px;
   }
 
+  .footnote p {
+    font-size: 14px;
+  }
+
   .hero {
     background-size: 500px;
     background-position: 25% 0%;
@@ -401,16 +428,16 @@ h1.contact-heading {
     padding-bottom: 50px;
   }
 
-  .content {
-    width: fit-content;
-    padding: 0 auto;
-    margin: 0 auto;
-  }
-
   .homepage-thumbnails {
     height: 210px;
     width: auto;
     padding: 0;
+  }
+
+  .work-content {
+    width: fit-content;
+    padding: 0 auto;
+    margin: 0 auto;
   }
 
   .style-description {
@@ -418,12 +445,16 @@ h1.contact-heading {
     margin: 0 auto;
   }
 
-  .content .row {
+  .work-content .row {
     margin: 40px auto;
   }
 
-  .content h2 {
+  .work-content h2 {
     font-size: 30px;
+  }
+
+  .work-section div.row {
+    margin-bottom: 80px;
   }
 
   div.about-details {
@@ -441,10 +472,6 @@ h1.contact-heading {
     padding: 20px;
   }
 
-  .work-section div.row {
-    margin-bottom: 80px;
-  }
-
   h1.contact-heading {
     font-size: 56px;
   }
@@ -452,11 +479,9 @@ h1.contact-heading {
   div.contact-section {
     margin-top: 80px;
   }
-
-  .footnote p {
-    font-size: 14px;
-  }
 }
+
+/* 768px */
 
 @media (max-width: 768px) {
   .homepage-thumbnails {
@@ -466,10 +491,11 @@ h1.contact-heading {
   }
 }
 
+/* 475px */
+
 @media (max-width: 475px) {
-  .content {
-    padding: 0;
-    max-width: 100%;
+  nav .navbar-brand {
+    font-size: 24px;
   }
 
   .homepage-thumbnails {
@@ -477,8 +503,9 @@ h1.contact-heading {
     height: auto;
   }
 
-  nav .navbar-brand {
-    font-size: 24px;
+  .work-content {
+    padding: 0;
+    max-width: 100%;
   }
 
   h1.work-heading {
@@ -486,15 +513,17 @@ h1.contact-heading {
     margin-bottom: 30px;
   }
 
-  h1.contact-heading {
-    font-size: 48px;
-  }
-
   .work-section div.row {
     margin-top: 20px;
     margin-bottom: 40px;
   }
+
+  h1.contact-heading {
+    font-size: 48px;
+  }
 }
+
+/* 334px */
 
 @media (max-width: 334px) {
   nav .navbar-brand {
