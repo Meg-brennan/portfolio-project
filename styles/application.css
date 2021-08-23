@@ -1,13 +1,9 @@
-/* 
-  color: #272142; 
-  color: #282323*/
-
 /* GENERAL STYLES */
 
 :root {
   --primary-color: #1b1b1b;
   --secondary-color: #202020;
-  --tertiary-color: #2d2727;
+  --tertiary-color: #282323;
   --fourth-color: #f65282;
   --default-font-family: "Roboto", sans-serif;
   --secondary-font-family: "Montserrat", sans-serif;
@@ -56,7 +52,7 @@ nav {
 }
 
 footer {
-  background: #282323;
+  background: var(--tertiary-color);
   color: #fff;
   height: 100px;
 }
@@ -91,6 +87,7 @@ nav .nav-link {
 nav .nav-link.active {
   font-weight: bold;
   opacity: 1;
+  font-size: 18px;
 }
 
 nav .nav-link:hover {
@@ -135,7 +132,7 @@ footer .copyright {
 
 .footnote {
   text-align: center;
-  background: #282323;
+  background: var(--tertiary-color);
 }
 
 .footnote p {
